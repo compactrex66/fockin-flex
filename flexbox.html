@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>strona</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .container {
+            display: flex;
+            padding: 5px;
+            justify-content: flex-start;
+            gap: 30px;
+            background-color: aqua;
+            padding-bottom: 30px;
+        }
+
+        .container>div {
+            display: inline;
+            border: 1px solid;
+            background-color: rgb(0, 162, 255);
+            border-radius: 20px;
+            padding: 5px;
+            width: 100px;
+            text-align: center;
+        }
+
+        header {
+            font-size: 25px;
+            text-align: center;
+            background-color: aqua;
+            padding-bottom: 20px;
+            padding-top: 10px;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            align-self: flex-end;
+            padding-left: 300px;
+            border: 0px;
+            border-radius: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        To jest nagłówek strony
+    </header>
+    <div class="container">
+        <div>
+            opcja 1
+        </div>
+        <div>
+            opcja 2
+        </div>
+        <div>
+            opcja 3
+        </div>
+        <div>
+            opcja 4
+        </div>
+        <div>
+            <img alt="gwiazdka" src="gwiazdka.jpg">
+        </div>
+    </div>
+</body>
+
+</html>
